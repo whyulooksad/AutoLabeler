@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+
+# Local app/runtime output
+logs/
+result/
+temp_uploads/
+temp_videos/
+temp_yolo_datasets/
+debug_images/
+.gradio/
+.specstory/
+
+# Model weights and large ML artifacts
+checkpoints/
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+
+# Generated datasets / exported labels
+images/
+labels/
+*.npy
+*.npz
+*.pkl
+*.hickle
+
+# Local media samples and generated archives
+test_sample/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.zip
+
+# Project-specific scratch files
+track/
+vots/
+vots.py
