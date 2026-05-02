@@ -4,7 +4,7 @@
 
 **AutoLabeler** 是一个面向视频目标自动标注的工具，用于从视频中快速生成 YOLO 格式的目标检测数据集。
 
-本项目基于 [Track-Anything](https://github.com/gaomingqi/Track-Anything) 改造而来。**Track-Anything** 定位为交互式视频追踪与修复工具，我们保留了其核心的 SAM 点击分割 + XMem 视频追踪能力，并围绕 **标注效率** 做了大量针对性改造——包括 YOLO 数据集导出、帧采样、视频预处理、坐标回映、性能优化等。你只需要在起始帧上通过正/负点提示得到目标 mask，系统会把目标传播到后续帧，并把追踪结果转换成可直接用于 YOLO 训练的数据集。
+本项目基于 [Track-Anything](https://github.com/gaomingqi/Track-Anything) 改造而来。**Track-Anything** 定位为交互式视频追踪与修复工具，我保留了其核心的 SAM 点击分割 + XMem 视频追踪能力，并围绕 **标注效率** 做了大量针对性改造——包括 YOLO 数据集导出、帧采样、视频预处理、坐标回映、性能优化等。你只需要在起始帧上通过正/负点提示得到目标 mask，系统会把目标传播到后续帧，并把追踪结果转换成可直接用于 YOLO 训练的数据集。
 
 ## 二、环境配置
 
@@ -105,7 +105,7 @@ http://127.0.0.1:5173
 
 7. 点击 Track 生成追踪结果视频。
 
-   ![287ca4afd0a549f28658ef0f4ae39b6c_test-sample1](https://cdn.jsdelivr.net/gh/whyulooksad/image_bed@main/images/20260502023843295.gif)
+   ![287ca4afd0a549f28658ef0f4ae39b6c_test-sample1](C:\Users\32628\Downloads\287ca4afd0a549f28658ef0f4ae39b6c_test-sample1.gif)
 
 8. 点击 YOLO 导出 YOLO 格式数据集压缩包。
 
