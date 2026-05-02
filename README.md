@@ -101,17 +101,17 @@ http://127.0.0.1:5173
 
 6. 选择要追踪的 mask。
 
-   ![9f7673bf-3e61-4f03-b62a-c0367eee6a14](assets\0.png)
+   ![mask-select](assets/0.png)
 
 7. 点击 Track 生成追踪结果视频。
 
-   ![test-sample1](assets\1.gif)
+   ![test-sample](assets/1.gif)
 
 8. 点击 YOLO 导出 YOLO 格式数据集压缩包。
 
-   ![image-20260502023949292](assets\2.png)
+   ![yolo-export-1](assets/2.png)
 
-![image-20260502024018763](assets\3.png)
+![yolo-export-2](assets/3.png)
 
 ## 五、代码结构
 
