@@ -101,17 +101,17 @@ http://127.0.0.1:5173
 
 6. 选择要追踪的 mask。
 
-   ![9f7673bf-3e61-4f03-b62a-c0367eee6a14](https://cdn.jsdelivr.net/gh/whyulooksad/image_bed@main/images/20260502022847203.png)
+   ![9f7673bf-3e61-4f03-b62a-c0367eee6a14](assets\0.png)
 
 7. 点击 Track 生成追踪结果视频。
 
-   ![287ca4afd0a549f28658ef0f4ae39b6c_test-sample1](C:\Users\32628\Downloads\287ca4afd0a549f28658ef0f4ae39b6c_test-sample1.gif)
+   ![test-sample1](assets\1.gif)
 
 8. 点击 YOLO 导出 YOLO 格式数据集压缩包。
 
-   ![image-20260502023949292](https://cdn.jsdelivr.net/gh/whyulooksad/image_bed@main/images/20260502023949358.png)
+   ![image-20260502023949292](assets\2.png)
 
-![image-20260502024018763](https://cdn.jsdelivr.net/gh/whyulooksad/image_bed@main/images/20260502024018825.png)
+![image-20260502024018763](assets\3.png)
 
 ## 五、代码结构
 
